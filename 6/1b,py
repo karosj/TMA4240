@@ -1,0 +1,21 @@
+import numpy as np 
+import matplotlib.pyplot as plt
+
+a = 5
+observed_values = np.array([7.98, 10.82, 15.88, 17.00, 24.22, 12.20, 8.17, 16.53, 7.46, 14.31, 34.55, 19.46, 20.21, 13.58, 10.98, 4.42, 24.92, 30.29])
+
+plt.figure(figsize=(12, 6))
+plt.subplot(1, 2, 1)
+plt.hist(observed_values, bins=10, color='g', edgecolor='black', density=True)
+plt.title('Histogram av observerte verdier')
+plt.xlabel('Observert verdi')
+plt.ylabel('Frekvens')
+
+# boksplott
+plt.subplot(1, 2, 2)
+plt.boxplot(observed_values)
+plt.title('Boksplott av observerte verdier')
+plt.xlabel('Observert verdi')
+
+plt.tight_layout()
+plt.show()
