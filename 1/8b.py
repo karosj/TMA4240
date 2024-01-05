@@ -13,6 +13,6 @@ f_z = lambda z : 4*x*np.exp(-alpha*x**2) - 4*x*(np.exp(-alpha*x**2))**2
 
 plt.plot(x, f_x(x), color="blue")
 plt.plot(x, f_z(x), color="red")    
-plt.xlabel("x vs y")
-plt.ylabel("f(x) vs f(y)")
+plt.xlabel("x vs z")
+plt.ylabel("f(x) vs f(z)")
 plt.show()
