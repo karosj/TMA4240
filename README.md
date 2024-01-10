@@ -5,10 +5,10 @@ Her finner man programmeringsoppgavene i de skriftlige innleveringene i faget. A
 
 Dersom du ikke får kjørt koden, kan det være fordi du ikke har lastet ned numpy, matplotlib osv. Dette fikses slik:
 
-``` pip install numpy```
+``` pip install numpy``` eller ``` pip3 install numpy``` dersom ```pip``` ikke funker. 
 
 ``` pip install matplotlib```
 
 ``` pip install scipy```
 
-også videre for de andre bibliotekene
+også videre for de andre bibliotekene. 
